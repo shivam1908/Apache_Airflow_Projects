@@ -1,0 +1,31 @@
+[2025-01-05T06:00:37.810+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-05T06:00:37.831+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: user_processing.is_api_available manual__2025-01-05T06:00:32.339225+00:00 [queued]>
+[2025-01-05T06:00:37.841+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: user_processing.is_api_available manual__2025-01-05T06:00:32.339225+00:00 [queued]>
+[2025-01-05T06:00:37.842+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-05T06:00:37.860+0000] {taskinstance.py:2889} INFO - Executing <Task(HttpSensor): is_api_available> on 2025-01-05 06:00:32.339225+00:00
+[2025-01-05T06:00:37.871+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=576) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-05T06:00:37.874+0000] {standard_task_runner.py:72} INFO - Started process 578 to run task
+[2025-01-05T06:00:37.874+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'is_api_available', 'manual__2025-01-05T06:00:32.339225+00:00', '--job-id', '53', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpi5ccmin3']
+[2025-01-05T06:00:37.876+0000] {standard_task_runner.py:105} INFO - Job 53: Subtask is_api_available
+[2025-01-05T06:00:37.933+0000] {task_command.py:467} INFO - Running <TaskInstance: user_processing.is_api_available manual__2025-01-05T06:00:32.339225+00:00 [running]> on host a67ecbd59b00
+[2025-01-05T06:00:38.056+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='user_processing' AIRFLOW_CTX_TASK_ID='is_api_available' AIRFLOW_CTX_EXECUTION_DATE='2025-01-05T06:00:32.339225+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-05T06:00:32.339225+00:00'
+[2025-01-05T06:00:38.060+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-05T06:00:38.061+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-05T06:00:38.062+0000] {logging_mixin.py:190} INFO - Current task name:is_api_available state:running start_date:2025-01-05 06:00:37.832726+00:00
+[2025-01-05T06:00:38.063+0000] {logging_mixin.py:190} INFO - Dag name:user_processing and current dag run status:running
+[2025-01-05T06:00:38.064+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-05T06:00:38.066+0000] {baseoperator.py:416} WARNING - HttpSensor.execute cannot be called outside TaskInstance!
+[2025-01-05T06:00:38.067+0000] {http.py:137} INFO - Poking: api/
+[2025-01-05T06:00:38.082+0000] {base.py:84} INFO - Retrieving connection 'user_api'
+[2025-01-05T06:00:38.842+0000] {base.py:336} INFO - Success criteria met. Exiting.
+[2025-01-05T06:00:38.856+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-05T06:00:38.858+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=is_api_available, run_id=manual__2025-01-05T06:00:32.339225+00:00, execution_date=20250105T060032, start_date=20250105T060037, end_date=20250105T060038
+[2025-01-05T06:00:38.871+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-05T06:00:38.872+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-05T06:00:38.873+0000] {logging_mixin.py:190} INFO - Dag name:user_processing queued_at:2025-01-05 06:00:32.359757+00:00
+[2025-01-05T06:00:38.874+0000] {logging_mixin.py:190} INFO - Task hostname:a67ecbd59b00 operator:HttpSensor
+[2025-01-05T06:00:38.900+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-05T06:00:38.944+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-05T06:00:38.951+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -27,7 +27,7 @@
 #                                Default: apache/airflow:2.10.3
 # AIRFLOW_UID                  - User ID in Airflow containers
 #                                Default: 50000
-# AIRFLOW_PROJ_DIR             - Base path to which all the files will be volumed.
+#AIRFLOW_PROJ_DIR   : "P:/Projects/Apache_Airflow_Projects/materials"
 #                                Default: .
 # Those configurations are useful mostly in case of standalone testing/running Airflow in test/try-out mode
 #

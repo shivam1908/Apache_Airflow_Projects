@@ -1,0 +1,28 @@
+[2025-01-05T06:07:55.294+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-05T06:07:55.327+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: user_processing.process_user manual__2025-01-05T06:07:40.374299+00:00 [queued]>
+[2025-01-05T06:07:55.339+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: user_processing.process_user manual__2025-01-05T06:07:40.374299+00:00 [queued]>
+[2025-01-05T06:07:55.340+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-05T06:07:55.361+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): process_user> on 2025-01-05 06:07:40.374299+00:00
+[2025-01-05T06:07:55.374+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=722) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-05T06:07:55.376+0000] {standard_task_runner.py:72} INFO - Started process 724 to run task
+[2025-01-05T06:07:55.377+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'process_user', 'manual__2025-01-05T06:07:40.374299+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpc75hhlse']
+[2025-01-05T06:07:55.379+0000] {standard_task_runner.py:105} INFO - Job 65: Subtask process_user
+[2025-01-05T06:07:55.425+0000] {task_command.py:467} INFO - Running <TaskInstance: user_processing.process_user manual__2025-01-05T06:07:40.374299+00:00 [running]> on host a67ecbd59b00
+[2025-01-05T06:07:55.517+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='user_processing' AIRFLOW_CTX_TASK_ID='process_user' AIRFLOW_CTX_EXECUTION_DATE='2025-01-05T06:07:40.374299+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-05T06:07:40.374299+00:00'
+[2025-01-05T06:07:55.519+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-05T06:07:55.520+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-05T06:07:55.520+0000] {logging_mixin.py:190} INFO - Current task name:process_user state:running start_date:2025-01-05 06:07:55.328860+00:00
+[2025-01-05T06:07:55.522+0000] {logging_mixin.py:190} INFO - Dag name:user_processing and current dag run status:running
+[2025-01-05T06:07:55.523+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-05T06:07:55.545+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-05T06:07:55.557+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-05T06:07:55.559+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=process_user, run_id=manual__2025-01-05T06:07:40.374299+00:00, execution_date=20250105T060740, start_date=20250105T060755, end_date=20250105T060755
+[2025-01-05T06:07:55.570+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-05T06:07:55.572+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-05T06:07:55.572+0000] {logging_mixin.py:190} INFO - Dag name:user_processing queued_at:2025-01-05 06:07:40.393477+00:00
+[2025-01-05T06:07:55.573+0000] {logging_mixin.py:190} INFO - Task hostname:a67ecbd59b00 operator:PythonOperator
+[2025-01-05T06:07:55.594+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-05T06:07:55.623+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-05T06:07:55.627+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

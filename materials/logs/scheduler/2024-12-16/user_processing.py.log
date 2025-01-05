@@ -1,0 +1,1369 @@
+[2024-12-16T09:17:11.540+0000] {processor.py:186} INFO - Started process (PID=68) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:17:11.543+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:17:11.546+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:17:11.546+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:17:11.580+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:17:11.574+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:17:11.582+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:17:11.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.080 seconds
+[2024-12-16T09:17:41.897+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:17:41.898+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:17:41.910+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:17:41.909+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:17:41.920+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:17:41.917+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:17:41.927+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:17:41.957+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.066 seconds
+[2024-12-16T09:18:12.497+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:18:12.499+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:18:12.502+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:18:12.502+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:18:12.563+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:18:12.558+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:18:12.564+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:18:12.582+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.096 seconds
+[2024-12-16T09:18:42.764+0000] {processor.py:186} INFO - Started process (PID=262) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:18:42.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:18:42.770+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:18:42.770+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:18:43.046+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:18:43.044+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:18:43.047+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:18:43.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.323 seconds
+[2024-12-16T09:19:13.252+0000] {processor.py:186} INFO - Started process (PID=326) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:19:13.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:19:13.257+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:19:13.257+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:19:13.301+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:19:13.293+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:19:13.306+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:19:13.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.076 seconds
+[2024-12-16T09:19:43.721+0000] {processor.py:186} INFO - Started process (PID=390) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:19:43.724+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:19:43.727+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:19:43.727+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:19:43.795+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:19:43.790+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:19:43.796+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:19:43.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.113 seconds
+[2024-12-16T09:20:14.609+0000] {processor.py:186} INFO - Started process (PID=460) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:20:14.610+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:20:14.621+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:20:14.621+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:20:14.631+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:20:14.628+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:20:14.633+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:20:14.650+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.046 seconds
+[2024-12-16T09:20:45.059+0000] {processor.py:186} INFO - Started process (PID=524) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:20:45.061+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:20:45.063+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:20:45.063+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:20:45.078+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:20:45.075+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:20:45.079+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:20:45.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.042 seconds
+[2024-12-16T09:21:15.648+0000] {processor.py:186} INFO - Started process (PID=588) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:21:15.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:21:15.652+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:21:15.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:21:15.679+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:21:15.675+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:21:15.683+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:21:15.707+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.064 seconds
+[2024-12-16T09:21:46.334+0000] {processor.py:186} INFO - Started process (PID=652) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:21:46.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:21:46.337+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:21:46.337+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:21:46.363+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:21:46.355+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:21:46.364+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:21:46.382+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.053 seconds
+[2024-12-16T09:22:16.623+0000] {processor.py:186} INFO - Started process (PID=716) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:22:16.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:22:16.628+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:22:16.628+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:22:16.647+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:22:16.642+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:22:16.649+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:22:16.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.053 seconds
+[2024-12-16T09:22:46.882+0000] {processor.py:186} INFO - Started process (PID=780) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:22:46.883+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:22:46.885+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:22:46.885+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:22:46.904+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:22:46.897+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:22:46.905+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:22:46.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.043 seconds
+[2024-12-16T09:23:17.064+0000] {processor.py:186} INFO - Started process (PID=844) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:23:17.065+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:23:17.067+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:23:17.067+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:23:17.079+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:23:17.074+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:23:17.080+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:23:17.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.039 seconds
+[2024-12-16T09:23:47.576+0000] {processor.py:186} INFO - Started process (PID=908) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:23:47.577+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:23:47.578+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:23:47.578+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:23:47.588+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:23:47.586+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:23:47.589+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:23:47.607+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.035 seconds
+[2024-12-16T09:24:17.710+0000] {processor.py:186} INFO - Started process (PID=972) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:24:17.715+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:24:17.718+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:24:17.718+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:24:17.746+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:24:17.742+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:24:17.748+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:24:17.766+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.070 seconds
+[2024-12-16T09:24:48.173+0000] {processor.py:186} INFO - Started process (PID=1036) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:24:48.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:24:48.179+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:24:48.178+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:24:48.188+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:24:48.186+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:24:48.189+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:24:48.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.038 seconds
+[2024-12-16T09:25:18.617+0000] {processor.py:186} INFO - Started process (PID=1100) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:25:18.618+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:25:18.620+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:25:18.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:25:18.642+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:25:18.640+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:25:18.643+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:25:18.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.060 seconds
+[2024-12-16T09:25:48.941+0000] {processor.py:186} INFO - Started process (PID=1164) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:25:48.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:25:48.948+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:25:48.947+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:25:48.968+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:25:48.963+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:25:48.969+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:25:48.991+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.058 seconds
+[2024-12-16T09:26:19.354+0000] {processor.py:186} INFO - Started process (PID=1228) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:26:19.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:26:19.357+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:26:19.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:26:19.367+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:26:19.365+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:26:19.367+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:26:19.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.038 seconds
+[2024-12-16T09:26:50.100+0000] {processor.py:186} INFO - Started process (PID=1292) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:26:50.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:26:50.103+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:26:50.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:26:50.113+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:26:50.111+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:26:50.114+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:26:50.138+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.043 seconds
+[2024-12-16T09:27:20.212+0000] {processor.py:186} INFO - Started process (PID=1356) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:27:20.213+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:27:20.217+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:27:20.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:27:20.232+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:27:20.229+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:27:20.233+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:27:20.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.049 seconds
+[2024-12-16T09:27:50.646+0000] {processor.py:186} INFO - Started process (PID=1420) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:27:50.647+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:27:50.649+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:27:50.649+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:27:50.662+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:27:50.659+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:27:50.662+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:27:50.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.041 seconds
+[2024-12-16T09:28:21.226+0000] {processor.py:186} INFO - Started process (PID=1484) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:28:21.227+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:28:21.229+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:28:21.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:28:21.241+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:28:21.238+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:28:21.242+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:28:21.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.035 seconds
+[2024-12-16T09:28:51.681+0000] {processor.py:186} INFO - Started process (PID=1548) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:28:51.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:28:51.683+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:28:51.683+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:28:51.692+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:28:51.690+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:28:51.693+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:28:51.711+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.037 seconds
+[2024-12-16T09:29:21.780+0000] {processor.py:186} INFO - Started process (PID=1612) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:29:21.781+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:29:21.784+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:29:21.783+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:29:21.795+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:29:21.793+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:29:21.796+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:29:21.812+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.038 seconds
+[2024-12-16T09:29:51.934+0000] {processor.py:186} INFO - Started process (PID=1676) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:29:51.935+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:29:51.938+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:29:51.937+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:29:51.950+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:29:51.947+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:29:51.951+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:29:51.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.043 seconds
+[2024-12-16T09:30:22.140+0000] {processor.py:186} INFO - Started process (PID=1740) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:30:22.141+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:30:22.144+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:30:22.143+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:30:22.159+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:30:22.151+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:30:22.161+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:30:22.191+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.056 seconds
+[2024-12-16T09:30:52.650+0000] {processor.py:186} INFO - Started process (PID=1804) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:30:52.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:30:52.652+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:30:52.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:30:52.671+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:30:52.662+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:30:52.672+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:30:52.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.053 seconds
+[2024-12-16T09:31:22.992+0000] {processor.py:186} INFO - Started process (PID=1868) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:31:22.993+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:31:22.995+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:31:22.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:31:23.004+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:31:23.002+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:31:23.005+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:31:23.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.035 seconds
+[2024-12-16T09:31:53.319+0000] {processor.py:186} INFO - Started process (PID=1932) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:31:53.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:31:53.322+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:31:53.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:31:53.331+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:31:53.329+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:31:53.332+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:31:53.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.040 seconds
+[2024-12-16T09:32:23.649+0000] {processor.py:186} INFO - Started process (PID=1996) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:32:23.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:32:23.652+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:32:23.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:32:23.661+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:32:23.659+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:32:23.662+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:32:23.679+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.035 seconds
+[2024-12-16T09:32:53.895+0000] {processor.py:186} INFO - Started process (PID=2043) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:32:53.895+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:32:53.897+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:32:53.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:32:53.906+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:32:53.904+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:32:53.907+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:32:53.928+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.038 seconds
+[2024-12-16T09:33:23.971+0000] {processor.py:186} INFO - Started process (PID=2092) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:33:23.972+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:33:23.974+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:33:23.974+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:33:23.985+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:33:23.983+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:33:23.986+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:33:24.001+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.034 seconds
+[2024-12-16T09:33:54.162+0000] {processor.py:186} INFO - Started process (PID=2152) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:33:54.163+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:33:54.165+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:33:54.164+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:33:54.177+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:33:54.173+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:33:54.178+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:33:54.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.034 seconds
+[2024-12-16T09:34:24.709+0000] {processor.py:186} INFO - Started process (PID=2214) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:34:24.710+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:34:24.712+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:34:24.711+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:34:24.720+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:34:24.718+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:34:24.721+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:34:24.735+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.030 seconds
+[2024-12-16T09:34:54.837+0000] {processor.py:186} INFO - Started process (PID=2265) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:34:54.838+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:34:54.840+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:34:54.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:34:54.849+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:34:54.847+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:34:54.850+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:34:54.865+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.032 seconds
+[2024-12-16T09:35:25.019+0000] {processor.py:186} INFO - Started process (PID=2326) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:35:25.020+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:35:25.022+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:35:25.022+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:35:25.036+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:35:25.034+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:35:25.037+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:35:25.064+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.051 seconds
+[2024-12-16T09:35:55.552+0000] {processor.py:186} INFO - Started process (PID=2390) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:35:55.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:35:55.556+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:35:55.556+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:35:55.639+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:35:55.609+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:35:55.646+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:35:55.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.133 seconds
+[2024-12-16T09:36:26.307+0000] {processor.py:186} INFO - Started process (PID=2454) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:36:26.308+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:36:26.313+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:36:26.312+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:36:26.326+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:36:26.323+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:36:26.327+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:36:26.347+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.045 seconds
+[2024-12-16T09:36:56.829+0000] {processor.py:186} INFO - Started process (PID=2518) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:36:56.830+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:36:56.834+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:36:56.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:36:56.849+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:36:56.845+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:36:56.850+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:36:56.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.049 seconds
+[2024-12-16T09:37:27.238+0000] {processor.py:186} INFO - Started process (PID=2582) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:37:27.239+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:37:27.242+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:37:27.242+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:37:27.255+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:37:27.252+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:37:27.256+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:37:27.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.042 seconds
+[2024-12-16T09:37:57.792+0000] {processor.py:186} INFO - Started process (PID=2646) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:37:57.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:37:57.797+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:37:57.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:37:57.811+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:37:57.808+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:37:57.812+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:37:57.831+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.046 seconds
+[2024-12-16T09:38:28.033+0000] {processor.py:186} INFO - Started process (PID=2710) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:38:28.034+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:38:28.036+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:38:28.036+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:38:28.048+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:38:28.045+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:38:28.049+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:38:28.067+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.038 seconds
+[2024-12-16T09:38:58.603+0000] {processor.py:186} INFO - Started process (PID=2774) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:38:58.605+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:38:58.609+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:38:58.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:38:58.622+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:38:58.619+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:38:58.624+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:38:58.653+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.060 seconds
+[2024-12-16T09:44:40.198+0000] {processor.py:186} INFO - Started process (PID=2838) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:44:40.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:44:40.203+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:44:40.203+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:44:40.233+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:44:40.225+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:44:40.235+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:44:40.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.085 seconds
+[2024-12-16T09:45:10.692+0000] {processor.py:186} INFO - Started process (PID=2902) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:45:10.694+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:45:10.705+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:45:10.704+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:45:10.769+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:45:10.723+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:45:10.770+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:45:10.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.103 seconds
+[2024-12-16T09:45:41.307+0000] {processor.py:186} INFO - Started process (PID=2966) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:45:41.307+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:45:41.310+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:45:41.310+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:45:41.326+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:45:41.322+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:45:41.327+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:45:41.346+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.045 seconds
+[2024-12-16T09:46:11.470+0000] {processor.py:186} INFO - Started process (PID=3037) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:46:11.471+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:46:11.475+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:46:11.474+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:46:11.490+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:46:11.487+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:46:11.491+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:46:11.510+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.045 seconds
+[2024-12-16T09:46:42.042+0000] {processor.py:186} INFO - Started process (PID=3101) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:46:42.043+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:46:42.046+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:46:42.045+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:46:42.054+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:46:42.052+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:46:42.056+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:46:42.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.043 seconds
+[2024-12-16T09:47:12.896+0000] {processor.py:186} INFO - Started process (PID=3189) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:47:12.898+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:47:12.903+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:47:12.900+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:47:12.920+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:47:12.918+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:47:12.921+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:47:12.940+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.048 seconds
+[2024-12-16T09:47:43.127+0000] {processor.py:186} INFO - Started process (PID=3253) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:47:43.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:47:43.130+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:47:43.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:47:43.138+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:47:43.136+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:47:43.139+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:47:43.154+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.032 seconds
+[2024-12-16T09:48:13.217+0000] {processor.py:186} INFO - Started process (PID=3341) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:48:13.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:48:13.232+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:48:13.232+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:48:13.263+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:48:13.260+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 7, in <module>
+    start_date = datetime(16-12-2024),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: function missing required argument 'month' (pos 2)
+[2024-12-16T09:48:13.265+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:48:13.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.086 seconds
+[2024-12-16T09:48:35.547+0000] {processor.py:186} INFO - Started process (PID=3399) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:48:35.548+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:48:35.551+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:48:35.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:48:35.572+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:48:35.675+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:48:35.674+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:user_processing
+[2024-12-16T09:48:35.688+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:48:35.688+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:user_processing
+[2024-12-16T09:48:35.696+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:48:35.696+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:user_processing
+[2024-12-16T09:48:35.705+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:48:35.704+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:user_processing
+[2024-12-16T09:48:35.713+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:48:35.713+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:user_processing
+[2024-12-16T09:48:35.721+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:48:35.721+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:user_processing
+[2024-12-16T09:48:35.729+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:48:35.729+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:user_processing
+[2024-12-16T09:48:35.730+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:48:35.730+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:48:35.747+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:48:35.746+0000] {dag.py:3262} INFO - Creating ORM DAG for user_processing
+[2024-12-16T09:48:35.760+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:48:35.760+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:48:35.783+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.242 seconds
+[2024-12-16T09:49:06.204+0000] {processor.py:186} INFO - Started process (PID=3487) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:49:06.205+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:49:06.209+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:49:06.208+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:49:06.226+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:49:06.243+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:49:06.243+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:49:06.261+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:49:06.261+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:49:06.277+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.078 seconds
+[2024-12-16T09:49:36.745+0000] {processor.py:186} INFO - Started process (PID=3550) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:49:36.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:49:36.748+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:49:36.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:49:36.761+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:49:36.776+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:49:36.775+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:49:36.794+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:49:36.794+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:49:36.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.076 seconds
+[2024-12-16T09:50:07.108+0000] {processor.py:186} INFO - Started process (PID=3614) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:50:07.111+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:50:07.115+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:50:07.114+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:50:07.129+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:50:07.143+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:50:07.143+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:50:07.160+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:50:07.159+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:50:07.175+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.071 seconds
+[2024-12-16T09:50:37.461+0000] {processor.py:186} INFO - Started process (PID=3678) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:50:37.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:50:37.464+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:50:37.464+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:50:37.477+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:50:37.497+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:50:37.497+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:50:37.533+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:50:37.533+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:50:37.553+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.098 seconds
+[2024-12-16T09:51:08.001+0000] {processor.py:186} INFO - Started process (PID=3742) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:51:08.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:51:08.004+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:51:08.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:51:08.020+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:51:08.041+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:51:08.041+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:51:08.058+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:51:08.058+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:51:08.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.084 seconds
+[2024-12-16T09:51:38.209+0000] {processor.py:186} INFO - Started process (PID=3806) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:51:38.210+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:51:38.213+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:51:38.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:51:38.228+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:51:38.244+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:51:38.243+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:51:38.263+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:51:38.263+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:51:38.280+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.076 seconds
+[2024-12-16T09:52:08.506+0000] {processor.py:186} INFO - Started process (PID=3870) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:52:08.507+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:52:08.511+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:52:08.511+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:52:08.528+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:52:08.546+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:52:08.546+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:52:08.577+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:52:08.576+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:52:08.624+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.123 seconds
+[2024-12-16T09:52:38.823+0000] {processor.py:186} INFO - Started process (PID=3934) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:52:38.826+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:52:38.831+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:52:38.830+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:52:38.885+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:52:38.932+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:52:38.931+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:52:38.978+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:52:38.978+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:52:39.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.198 seconds
+[2024-12-16T09:53:09.157+0000] {processor.py:186} INFO - Started process (PID=3997) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:53:09.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:53:09.162+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:53:09.162+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:53:09.219+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:53:09.254+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:53:09.253+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:53:09.285+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:53:09.284+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:53:09.317+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.170 seconds
+[2024-12-16T09:53:39.827+0000] {processor.py:186} INFO - Started process (PID=4061) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:53:39.830+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:53:39.835+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:53:39.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:53:39.892+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:53:39.929+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:53:39.929+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:53:39.964+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:53:39.964+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:53:40.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.186 seconds
+[2024-12-16T09:54:10.298+0000] {processor.py:186} INFO - Started process (PID=4125) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:54:10.300+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:54:10.305+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:54:10.304+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:54:10.361+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:54:10.393+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:54:10.392+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:54:10.423+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:54:10.423+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:54:10.460+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.173 seconds
+[2024-12-16T09:54:41.362+0000] {processor.py:186} INFO - Started process (PID=4195) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:54:41.364+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:54:41.367+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:54:41.367+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:54:41.407+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:54:41.429+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:54:41.429+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:54:41.459+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:54:41.459+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:54:41.491+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.137 seconds
+[2024-12-16T09:55:11.662+0000] {processor.py:186} INFO - Started process (PID=4259) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:55:11.664+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:55:11.671+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:55:11.670+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:55:11.750+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:55:11.791+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:55:11.790+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:55:11.826+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:55:11.826+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:55:11.860+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.211 seconds
+[2024-12-16T09:55:42.187+0000] {processor.py:186} INFO - Started process (PID=4323) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:55:42.189+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:55:42.195+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:55:42.194+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:55:42.250+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:55:42.291+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:55:42.290+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:55:42.325+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:55:42.324+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:55:42.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.187 seconds
+[2024-12-16T09:56:13.343+0000] {processor.py:186} INFO - Started process (PID=4387) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:56:13.344+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:56:13.347+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:56:13.347+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:56:13.375+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:56:13.406+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:56:13.405+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:56:13.438+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:56:13.438+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:56:13.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.138 seconds
+[2024-12-16T09:56:43.564+0000] {processor.py:186} INFO - Started process (PID=4450) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:56:43.565+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:56:43.569+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:56:43.568+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:56:43.603+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:56:43.632+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:56:43.631+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:56:43.667+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:56:43.666+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:56:43.698+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.145 seconds
+[2024-12-16T09:57:14.198+0000] {processor.py:186} INFO - Started process (PID=4513) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:57:14.199+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:57:14.202+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:57:14.202+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:57:14.237+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:57:14.265+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:57:14.264+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:57:14.296+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:57:14.295+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:57:14.327+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.139 seconds
+[2024-12-16T09:57:44.761+0000] {processor.py:186} INFO - Started process (PID=4577) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:57:44.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:57:44.766+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:57:44.765+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:57:44.811+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:57:44.843+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:57:44.843+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:57:44.870+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:57:44.869+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:57:44.894+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.141 seconds
+[2024-12-16T09:58:15.149+0000] {processor.py:186} INFO - Started process (PID=4627) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:58:15.150+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:58:15.154+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:58:15.153+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:58:15.174+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:58:15.196+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:58:15.196+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:58:15.228+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:58:15.227+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:58:15.252+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.110 seconds
+[2024-12-16T09:58:45.515+0000] {processor.py:186} INFO - Started process (PID=4678) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:58:45.516+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:58:45.519+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:58:45.519+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:58:45.538+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:58:45.558+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:58:45.558+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:58:45.585+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:58:45.585+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:58:45.607+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.099 seconds
+[2024-12-16T09:59:16.320+0000] {processor.py:186} INFO - Started process (PID=4738) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:59:16.321+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:59:16.324+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:59:16.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:59:16.354+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:59:16.374+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:59:16.374+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:59:16.398+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:59:16.398+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:59:16.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.105 seconds
+[2024-12-16T09:59:46.877+0000] {processor.py:186} INFO - Started process (PID=4789) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T09:59:46.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T09:59:46.883+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:59:46.882+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:59:46.910+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T09:59:46.930+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:59:46.929+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:59:46.953+0000] {logging_mixin.py:190} INFO - [2024-12-16T09:59:46.952+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:59:46.975+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.104 seconds
+[2024-12-16T10:00:17.440+0000] {processor.py:186} INFO - Started process (PID=4846) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:00:17.441+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:00:17.444+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:00:17.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:00:17.471+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:00:17.493+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:00:17.492+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:00:17.519+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:00:17.518+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:00:17.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.105 seconds
+[2024-12-16T10:00:48.209+0000] {processor.py:186} INFO - Started process (PID=4907) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:00:48.212+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:00:48.221+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:00:48.221+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:00:48.277+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:00:48.310+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:00:48.310+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:00:48.343+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:00:48.343+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:00:48.372+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.172 seconds
+[2024-12-16T10:01:19.421+0000] {processor.py:186} INFO - Started process (PID=4971) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:01:19.423+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:01:19.426+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:01:19.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:01:19.463+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:01:19.486+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:01:19.485+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:01:19.515+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:01:19.515+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:01:19.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.135 seconds
+[2024-12-16T10:01:50.583+0000] {processor.py:186} INFO - Started process (PID=5035) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:01:50.585+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:01:50.590+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:01:50.589+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:01:50.637+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:01:50.665+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:01:50.665+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:01:50.696+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:01:50.696+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:01:50.721+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.148 seconds
+[2024-12-16T10:02:21.112+0000] {processor.py:186} INFO - Started process (PID=5099) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:02:21.114+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:02:21.119+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:02:21.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:02:21.179+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:02:21.221+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:02:21.221+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:02:21.261+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:02:21.261+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:02:21.300+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.199 seconds
+[2024-12-16T10:02:51.990+0000] {processor.py:186} INFO - Started process (PID=5163) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:02:51.991+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:02:51.995+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:02:51.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:02:52.022+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:02:52.049+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:02:52.048+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:02:52.085+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:02:52.085+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:02:52.113+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.131 seconds
+[2024-12-16T10:03:22.731+0000] {processor.py:186} INFO - Started process (PID=5227) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:03:22.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:03:22.739+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:03:22.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:03:22.797+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:03:22.837+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:03:22.837+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:03:22.873+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:03:22.873+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:03:22.904+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.182 seconds
+[2024-12-16T10:03:53.513+0000] {processor.py:186} INFO - Started process (PID=5291) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:03:53.516+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:03:53.521+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:03:53.521+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:03:53.576+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:03:53.619+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:03:53.619+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:03:53.655+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:03:53.655+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:03:53.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.189 seconds
+[2024-12-16T10:04:24.478+0000] {processor.py:186} INFO - Started process (PID=5355) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:04:24.481+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:04:24.487+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:04:24.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:04:24.537+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:04:24.561+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:04:24.560+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:04:24.589+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:04:24.588+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:04:24.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.146 seconds
+[2024-12-16T10:04:55.061+0000] {processor.py:186} INFO - Started process (PID=5418) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:04:55.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:04:55.067+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:04:55.066+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:04:55.130+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:04:55.165+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:04:55.164+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:04:55.197+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:04:55.197+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:04:55.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.172 seconds
+[2024-12-16T10:05:25.464+0000] {processor.py:186} INFO - Started process (PID=5482) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:05:25.466+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:05:25.470+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:05:25.469+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:05:25.493+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:05:25.526+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:05:25.525+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:05:25.559+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:05:25.559+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:05:25.587+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.131 seconds
+[2024-12-16T10:05:55.901+0000] {processor.py:186} INFO - Started process (PID=5545) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:05:55.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:05:55.909+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:05:55.908+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:05:55.947+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:05:55.978+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:05:55.978+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:05:56.021+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:05:56.020+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:05:56.054+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.164 seconds
+[2024-12-16T10:06:26.540+0000] {processor.py:186} INFO - Started process (PID=5609) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:06:26.541+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:06:26.545+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:06:26.545+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:06:26.590+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:06:26.616+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:06:26.615+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:06:26.650+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:06:26.649+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:06:26.682+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.152 seconds
+[2024-12-16T10:06:57.367+0000] {processor.py:186} INFO - Started process (PID=5673) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:06:57.369+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:06:57.373+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:06:57.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:06:57.403+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:06:57.429+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:06:57.428+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:06:57.461+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:06:57.460+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:06:57.499+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.139 seconds
+[2024-12-16T10:07:28.297+0000] {processor.py:186} INFO - Started process (PID=5737) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:07:28.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:07:28.302+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:07:28.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:07:28.344+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:07:28.375+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:07:28.375+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:07:28.418+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:07:28.418+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:07:28.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.166 seconds
+[2024-12-16T10:07:58.644+0000] {processor.py:186} INFO - Started process (PID=5801) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:07:58.646+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:07:58.651+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:07:58.650+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:07:58.685+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:07:58.706+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:07:58.705+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:07:58.731+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:07:58.731+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:07:58.757+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.123 seconds
+[2024-12-16T10:08:29.651+0000] {processor.py:186} INFO - Started process (PID=5865) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:08:29.653+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:08:29.659+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:08:29.658+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:08:29.712+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:08:29.746+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:08:29.745+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:08:29.783+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:08:29.783+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:08:29.812+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.175 seconds
+[2024-12-16T10:09:00.145+0000] {processor.py:186} INFO - Started process (PID=5929) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:09:00.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:09:00.150+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:09:00.149+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:09:00.187+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:09:00.209+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:09:00.208+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:09:00.241+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:09:00.241+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:09:00.262+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.124 seconds
+[2024-12-16T10:09:31.183+0000] {processor.py:186} INFO - Started process (PID=5993) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:09:31.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:09:31.191+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:09:31.190+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:09:31.231+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:09:31.256+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:09:31.256+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:09:31.287+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:09:31.286+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:09:31.311+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.138 seconds
+[2024-12-16T10:10:02.044+0000] {processor.py:186} INFO - Started process (PID=6056) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:10:02.046+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:10:02.051+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:10:02.051+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:10:02.114+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:10:02.145+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:10:02.144+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:10:02.185+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:10:02.184+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:10:02.219+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.191 seconds
+[2024-12-16T10:10:32.486+0000] {processor.py:186} INFO - Started process (PID=6120) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:10:32.489+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:10:32.494+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:10:32.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:10:32.537+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:10:32.566+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:10:32.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:10:32.600+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:10:32.600+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:10:32.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.165 seconds
+[2024-12-16T10:11:03.186+0000] {processor.py:186} INFO - Started process (PID=6184) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:11:03.188+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:11:03.193+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:11:03.192+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:11:03.248+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:11:03.275+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:11:03.275+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:11:03.311+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:11:03.310+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:11:03.344+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.166 seconds
+[2024-12-16T10:11:33.793+0000] {processor.py:186} INFO - Started process (PID=6249) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:11:33.794+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:11:33.798+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:11:33.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:11:33.836+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:11:33.859+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:11:33.859+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:11:33.887+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:11:33.887+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:11:33.919+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.134 seconds
+[2024-12-16T10:12:04.009+0000] {processor.py:186} INFO - Started process (PID=6313) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:12:04.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:12:04.018+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:12:04.017+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:12:04.089+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:12:04.125+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:12:04.125+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:12:04.160+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:12:04.160+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:12:04.191+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.194 seconds
+[2024-12-16T10:12:34.993+0000] {processor.py:186} INFO - Started process (PID=6377) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:12:34.996+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:12:35.003+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:12:35.002+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:12:35.051+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:12:35.074+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:12:35.074+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:12:35.102+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:12:35.102+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:12:35.130+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.149 seconds
+[2024-12-16T10:13:05.664+0000] {processor.py:186} INFO - Started process (PID=6441) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:13:05.665+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:13:05.668+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:13:05.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:13:05.704+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:13:05.726+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:13:05.726+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:13:05.751+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:13:05.750+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:13:05.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.115 seconds
+[2024-12-16T10:13:36.054+0000] {processor.py:186} INFO - Started process (PID=6505) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:13:36.056+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:13:36.060+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:13:36.060+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:13:36.103+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:13:36.131+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:13:36.131+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:13:36.169+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:13:36.168+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:13:36.203+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.157 seconds
+[2024-12-16T10:14:07.100+0000] {processor.py:186} INFO - Started process (PID=6569) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:14:07.102+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:14:07.107+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:14:07.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:14:07.157+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:14:07.190+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:14:07.190+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:14:07.221+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:14:07.221+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:14:07.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.171 seconds
+[2024-12-16T10:14:38.000+0000] {processor.py:186} INFO - Started process (PID=6633) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:14:38.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:14:38.008+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:14:38.008+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:14:38.056+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:14:38.087+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:14:38.087+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:14:38.123+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:14:38.123+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:14:38.158+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.172 seconds
+[2024-12-16T10:15:09.044+0000] {processor.py:186} INFO - Started process (PID=6697) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:15:09.046+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:15:09.049+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:15:09.049+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:15:09.094+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:15:09.132+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:15:09.131+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:15:09.168+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:15:09.168+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:15:09.205+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.169 seconds
+[2024-12-16T10:15:39.385+0000] {processor.py:186} INFO - Started process (PID=6761) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:15:39.387+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:15:39.391+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:15:39.390+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:15:39.440+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:15:39.472+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:15:39.472+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:15:39.501+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:15:39.501+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:15:39.529+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.151 seconds
+[2024-12-16T10:16:10.394+0000] {processor.py:186} INFO - Started process (PID=6825) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:16:10.395+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:16:10.405+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:16:10.404+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:16:10.460+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:16:10.488+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:16:10.487+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:16:10.521+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:16:10.520+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:16:10.557+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.174 seconds
+[2024-12-16T10:16:41.328+0000] {processor.py:186} INFO - Started process (PID=6889) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:16:41.330+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:16:41.334+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:16:41.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:16:41.390+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:16:41.416+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:16:41.415+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:16:41.444+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:16:41.444+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:16:41.471+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.153 seconds
+[2024-12-16T10:17:11.711+0000] {processor.py:186} INFO - Started process (PID=6952) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:17:11.715+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:17:11.720+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:17:11.719+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:17:11.768+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:17:11.797+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:17:11.797+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:17:11.826+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:17:11.826+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:17:11.861+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.160 seconds
+[2024-12-16T10:17:42.292+0000] {processor.py:186} INFO - Started process (PID=7015) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:17:42.295+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:17:42.301+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:17:42.299+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:17:42.360+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:17:42.401+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:17:42.401+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:17:42.439+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:17:42.439+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:17:42.481+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.202 seconds
+[2024-12-16T10:18:12.777+0000] {processor.py:186} INFO - Started process (PID=7079) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:18:12.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:18:12.784+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:18:12.783+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:18:12.843+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:18:12.878+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:18:12.877+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:18:12.916+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:18:12.916+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:18:12.946+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.180 seconds
+[2024-12-16T10:18:43.299+0000] {processor.py:186} INFO - Started process (PID=7143) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:18:43.302+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:18:43.309+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:18:43.308+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:18:43.368+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:18:43.405+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:18:43.405+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:18:43.449+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:18:43.449+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:18:43.491+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.202 seconds
+[2024-12-16T10:19:13.707+0000] {processor.py:186} INFO - Started process (PID=7213) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:19:13.710+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:19:13.716+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:19:13.715+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:19:13.772+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:19:13.806+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:19:13.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:19:13.840+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:19:13.839+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:19:13.870+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.177 seconds
+[2024-12-16T10:19:44.776+0000] {processor.py:186} INFO - Started process (PID=7277) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:19:44.778+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:19:44.781+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:19:44.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:19:44.819+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:19:44.845+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:19:44.844+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:19:44.877+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:19:44.877+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:19:44.914+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.146 seconds
+[2024-12-16T10:20:15.142+0000] {processor.py:186} INFO - Started process (PID=7341) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:20:15.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:20:15.149+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:20:15.148+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:20:15.175+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:20:15.198+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:20:15.198+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:20:15.228+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:20:15.228+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:20:15.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.121 seconds
+[2024-12-16T10:20:45.764+0000] {processor.py:186} INFO - Started process (PID=7405) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:20:45.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:20:45.769+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:20:45.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:20:45.809+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:20:45.833+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:20:45.833+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:20:45.861+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:20:45.861+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:20:45.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.146 seconds
+[2024-12-16T10:21:16.220+0000] {processor.py:186} INFO - Started process (PID=7469) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:21:16.222+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:21:16.225+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:21:16.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:21:16.304+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:21:16.341+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:21:16.340+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:21:16.374+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:21:16.373+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:21:16.409+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.199 seconds
+[2024-12-16T10:21:46.705+0000] {processor.py:186} INFO - Started process (PID=7533) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:21:46.706+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:21:46.708+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:21:46.708+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:21:46.733+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:21:46.752+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:21:46.752+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:21:46.777+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:21:46.777+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:21:46.809+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.111 seconds
+[2024-12-16T10:22:17.264+0000] {processor.py:186} INFO - Started process (PID=7597) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:22:17.265+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:22:17.268+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:22:17.267+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:22:17.294+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:22:17.318+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:22:17.318+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:22:17.346+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:22:17.345+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:22:17.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.118 seconds
+[2024-12-16T10:22:47.892+0000] {processor.py:186} INFO - Started process (PID=7654) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:22:47.893+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:22:47.897+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:22:47.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:22:47.928+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:22:47.958+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:22:47.957+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:22:47.991+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:22:47.991+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:22:48.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.132 seconds
+[2024-12-16T10:23:19.671+0000] {processor.py:186} INFO - Started process (PID=7719) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:23:19.672+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:23:19.674+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:23:19.674+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:23:19.688+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:23:19.705+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:23:19.704+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:23:19.728+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:23:19.728+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:23:19.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.078 seconds
+[2024-12-16T10:23:49.892+0000] {processor.py:186} INFO - Started process (PID=7771) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:23:49.894+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:23:49.898+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:23:49.898+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:23:49.926+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:23:49.947+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:23:49.947+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:23:49.975+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:23:49.975+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:23:49.996+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.111 seconds
+[2024-12-16T10:24:20.402+0000] {processor.py:186} INFO - Started process (PID=7832) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:24:20.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:24:20.409+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:24:20.408+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:24:20.465+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:24:20.495+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:24:20.494+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:24:20.524+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:24:20.524+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:24:20.553+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.160 seconds
+[2024-12-16T10:24:51.223+0000] {processor.py:186} INFO - Started process (PID=7896) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:24:51.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:24:51.230+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:24:51.230+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:24:51.275+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:24:51.300+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:24:51.299+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:24:51.329+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:24:51.328+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:24:51.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.143 seconds
+[2024-12-16T10:25:21.777+0000] {processor.py:186} INFO - Started process (PID=7958) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:25:21.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:25:21.782+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:25:21.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:25:21.831+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:25:21.854+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:25:21.853+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:25:21.885+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:25:21.885+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:25:21.912+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.143 seconds
+[2024-12-16T10:25:52.119+0000] {processor.py:186} INFO - Started process (PID=8022) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:25:52.121+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:25:52.127+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:25:52.126+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:25:52.174+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:25:52.202+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:25:52.202+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:25:52.235+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:25:52.234+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:25:52.263+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.155 seconds
+[2024-12-16T10:26:22.584+0000] {processor.py:186} INFO - Started process (PID=8087) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:26:22.585+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:26:22.588+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:26:22.588+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:26:22.630+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:26:22.654+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:26:22.654+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:26:22.688+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:26:22.688+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:26:22.718+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.144 seconds
+[2024-12-16T10:26:53.268+0000] {processor.py:186} INFO - Started process (PID=8151) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:26:53.269+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:26:53.272+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:26:53.272+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:26:53.303+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:26:53.330+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:26:53.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:26:53.356+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:26:53.356+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:26:53.377+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.116 seconds
+[2024-12-16T10:27:23.466+0000] {processor.py:186} INFO - Started process (PID=8215) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:27:23.468+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:27:23.472+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:27:23.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:27:23.503+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:27:23.530+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:27:23.530+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:27:23.562+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:27:23.561+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:27:23.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.136 seconds
+[2024-12-16T10:27:53.981+0000] {processor.py:186} INFO - Started process (PID=8279) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:27:53.983+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:27:53.987+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:27:53.986+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:27:54.018+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:27:54.041+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:27:54.041+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:27:54.072+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:27:54.072+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:27:54.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.132 seconds
+[2024-12-16T10:28:24.291+0000] {processor.py:186} INFO - Started process (PID=8343) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:28:24.300+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:28:24.312+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:28:24.311+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:28:24.365+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:28:24.395+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:28:24.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:28:24.430+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:28:24.430+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:28:24.463+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.186 seconds
+[2024-12-16T10:28:55.113+0000] {processor.py:186} INFO - Started process (PID=8407) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:28:55.114+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:28:55.120+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:28:55.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:28:55.170+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:28:55.205+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:28:55.204+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:28:55.238+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:28:55.238+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:28:55.274+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.170 seconds
+[2024-12-16T10:29:25.848+0000] {processor.py:186} INFO - Started process (PID=8471) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:29:25.851+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:29:25.858+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:29:25.857+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:29:25.901+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:29:25.927+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:29:25.927+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:29:25.960+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:29:25.960+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:29:26.001+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.166 seconds
+[2024-12-16T10:29:56.747+0000] {processor.py:186} INFO - Started process (PID=8535) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:29:56.749+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:29:56.753+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:29:56.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:29:56.779+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:29:56.801+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:29:56.801+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:29:56.829+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:29:56.829+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:29:56.850+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.113 seconds
+[2024-12-16T10:30:00.952+0000] {processor.py:186} INFO - Started process (PID=8536) to work on /opt/airflow/dags/user_processing.py
+[2024-12-16T10:30:00.954+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-12-16T10:30:00.958+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:30:00.958+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:30:01.044+0000] {processor.py:925} INFO - DAG(s) 'user_processing' retrieved from /opt/airflow/dags/user_processing.py
+[2024-12-16T10:30:01.067+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:30:01.067+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T10:30:01.094+0000] {logging_mixin.py:190} INFO - [2024-12-16T10:30:01.094+0000] {dag.py:4180} INFO - Setting next_dagrun for user_processing to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T10:30:01.129+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/user_processing.py took 0.187 seconds
